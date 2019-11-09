@@ -1,5 +1,5 @@
 # Works if you make the api call through python
-from getRoute import getRoute
+from getRoute import getRoute, getAddresses
 import googlemaps
 from datetime import datetime
 
@@ -13,9 +13,10 @@ gmaps = googlemaps.Client(key='AIzaSyB2UYBQZJIIb4bIHYnw858xSM6QWwj5CbI')
 #reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
 
 # Request directions via walking
+ad = getAddresses("North Garage Princeton", "Friend Center Princeton")
 now = datetime.now()
-dr = gmaps.directions("North Garage Princeton",
-                      "Friend Center Princeton",
+dr = gmaps.directions(ad[0],
+                      ad[1],
                       mode="walking",
                       departure_time=now)
 

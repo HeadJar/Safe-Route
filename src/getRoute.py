@@ -34,3 +34,7 @@ def getRoute(dr):
             l.append(tup)
 
     return l
+
+
+def getAddresses(f, t):
+    return (f, t)
