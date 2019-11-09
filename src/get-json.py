@@ -15,6 +15,7 @@ myO = getJSON('./ex.json')
 print(myO["routes"][0]["legs"][0]["steps"][0]
       ["end_location"])  # single step of trip
 """
+
 print(myO["legs"][0]["steps"][0]["end_location"])
 print(myO["legs"][0]["duration"]["text"])
 
