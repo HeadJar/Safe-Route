@@ -1,14 +1,74 @@
 {
-  "geocoded_waypoints": [
+  "bounds": {
+    "northeast": { "lat": 40.350622, "lng": -74.64928259999999 },
+    "southwest": { "lat": 40.348886, "lng": -74.6519232 }
+  },
+  "copyrights": "Map data ©2019",
+  "legs": [
     {
-      "geocoder_status": "OK",
-      "place_id": "ChIJvX5Ce2BOtokRRHVV5lOmZtc",
-      "types": ["establishment", "point_of_interest", "university"]
-    },
-    {
-      "geocoder_status": "OK",
-      "place_id": "ChIJYWTlhfZStokRU5azNhgc2OY",
-      "types": ["premise"]
+      "distance": { "text": "0.4 mi", "value": 596 },
+      "duration": { "text": "7 mins", "value": 446 },
+      "end_address": "65 Olden St, Princeton, NJ 08540, USA",
+      "end_location": { "lat": 40.350622, "lng": -74.6519232 },
+      "start_address": "Princeton, NJ 08540, USA",
+      "start_location": { "lat": 40.3496968, "lng": -74.65014289999999 },
+      "steps": [
+        {
+          "distance": { "text": "230 ft", "value": 70 },
+          "duration": { "text": "1 min", "value": 51 },
+          "end_location": { "lat": 40.3502641, "lng": -74.65019649999999 },
+          "html_instructions": "Head <b>north</b>",
+          "polyline": { "points": "sxguFjbsfMy@ZC?CA?ACGECECC?E?G@C@A@A?AAA?" },
+          "start_location": { "lat": 40.3496968, "lng": -74.65014289999999 },
+          "travel_mode": "WALKING"
+        },
+        {
+          "distance": { "text": "0.1 mi", "value": 158 },
+          "duration": { "text": "2 mins", "value": 110 },
+          "end_location": {
+            "lat": 40.34936829999999,
+            "lng": -74.64928259999999
+          },
+          "html_instructions": "Turn <b>right</b> toward <b>Prospect Ave</b>",
+          "maneuver": "turn-right",
+          "polyline": { "points": "c|guFvbsfMWsA?C@A?A^Qb@ObCy@" },
+          "start_location": { "lat": 40.3502641, "lng": -74.65019649999999 },
+          "travel_mode": "WALKING"
+        },
+        {
+          "distance": { "text": "0.1 mi", "value": 163 },
+          "duration": { "text": "2 mins", "value": 132 },
+          "end_location": { "lat": 40.348886, "lng": -74.651101 },
+          "html_instructions": "Turn <b>right</b> onto <b>Prospect Ave</b>",
+          "maneuver": "turn-right",
+          "polyline": { "points": "qvguF~|rfM^vBNz@TrAXbB" },
+          "start_location": {
+            "lat": 40.34936829999999,
+            "lng": -74.64928259999999
+          },
+          "travel_mode": "WALKING"
+        },
+        {
+          "distance": { "text": "0.1 mi", "value": 205 },
+          "duration": { "text": "3 mins", "value": 153 },
+          "end_location": { "lat": 40.350622, "lng": -74.6519232 },
+          "html_instructions": "Turn <b>right</b> onto <b>Olden St</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+          "maneuver": "turn-right",
+          "polyline": { "points": "qsguFjhsfM_C|@_Bl@yBv@" },
+          "start_location": { "lat": 40.348886, "lng": -74.651101 },
+          "travel_mode": "WALKING"
+        }
+      ],
+      "traffic_speed_entry": [],
+      "via_waypoint": []
     }
-  ]
+  ],
+  "overview_polyline": {
+    "points": "sxguFjbsfM}@ZCCIKICSDEAWwA@CbAa@bCy@^vBd@nCXbB_C|@yEdB"
+  },
+  "summary": "Prospect Ave and Olden St",
+  "warnings": [
+    "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+  ],
+  "waypoint_order": []
 }

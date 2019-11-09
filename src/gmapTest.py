@@ -11,12 +11,17 @@ reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
 
 # Request directions via public transit
 now = datetime.now()
-directions_result = gmaps.directions("7218 Deavers Run Court",
-                                     "George Mason University",
-                                     mode="driving",
-                                     departure_time=now)
+dr = gmaps.directions("North Garage Princeton",
+                      "Friend Center Princeton",
+                      mode="walking",
+                      departure_time=now)
 
 
-# clear
-# print(directions_result)
-print((directions_result)[0]['routes'])
+# gets the location per step                  #Change this for the number of steps
+# when running from python add an extra 0 becasue its a list at beginning
+# (dr[0]["legs"][0]["steps"][0]["end_location"])
+l = [dr[0]["legs"][0]["steps"][0]["start_location"]]
+time = dr[0]["legs"][0]["duration"]["text"].split()
+# Gets the duration
+duration = (int(time[0]))
+print(l)
