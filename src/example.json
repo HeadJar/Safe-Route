@@ -1,0 +1,349 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJvX5Ce2BOtokRRHVV5lOmZtc",
+      "types": ["establishment", "point_of_interest", "university"]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJYWTlhfZStokRU5azNhgc2OY",
+      "types": ["premise"]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 38.835089,
+          "lng": -77.2365248
+        },
+        "southwest": {
+          "lat": 38.7452112,
+          "lng": -77.3273001
+        }
+      },
+      "copyrights": "Map data ©2019",
+      "legs": [
+        {
+          "distance": {
+            "text": "10.7 mi",
+            "value": 17230
+          },
+          "duration": {
+            "text": "20 mins",
+            "value": 1218
+          },
+          "end_address": "7218 Deavers Run Ct, Springfield, VA 22152, USA",
+          "end_location": {
+            "lat": 38.7581836,
+            "lng": -77.2374944
+          },
+          "start_address": "4400 University Dr, Fairfax, VA 22030, USA",
+          "start_location": {
+            "lat": 38.8338409,
+            "lng": -77.3139918
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 278
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 59
+              },
+              "end_location": {
+                "lat": 38.8345523,
+                "lng": -77.31434489999999
+              },
+              "html_instructions": "Head \u003cb\u003enorth\u003c/b\u003e toward \u003cb\u003eSt Johns Pl\u003c/b\u003e",
+              "polyline": {
+                "points": "ov_lFlk{vME?A?C?CAA?C?CACAAAACCCACAE?A?AAA?A?A?C?C?C?G@U?M?K?K?K?KAMIWCGACAECCCCCCCCCECACCAAAAC?AAAAA?A?A?A?A@C@A?ABC@MLA@AB?@A@?@A@?@?B?B?@?@?@?B?@?@@D@F?F@D?@@D?D@D?D?F?D@F?@?F?F?D?F?H?FAN?LAN?NAXAX"
+              },
+              "start_location": {
+                "lat": 38.8338409,
+                "lng": -77.3139918
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "108 ft",
+                "value": 33
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 12
+              },
+              "end_location": {
+                "lat": 38.8348425,
+                "lng": -77.31428219999999
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSt Johns Pl\u003c/b\u003e",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "}z_lFrm{vMy@K"
+              },
+              "start_location": {
+                "lat": 38.8345523,
+                "lng": -77.31434489999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.1 mi",
+                "value": 211
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 55
+              },
+              "end_location": {
+                "lat": 38.835089,
+                "lng": -77.311931
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eUniversity Dr\u003c/b\u003e",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "w|_lFfm{vMFe@@K@E?E@E?E?E?E?E@C?GAE?K?A?C?G?E?EAG?GAIAMAGAEAEAGCGAEAEAGEKQo@?EEOEYASAU?M?O?m@"
+              },
+              "start_location": {
+                "lat": 38.8348425,
+                "lng": -77.31428219999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.6 mi",
+                "value": 5799
+              },
+              "duration": {
+                "text": "7 mins",
+                "value": 399
+              },
+              "end_location": {
+                "lat": 38.7859792,
+                "lng": -77.3272777
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eVA-123 S\u003c/b\u003e",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "i~_lFp~zvMn@Zd@VXRNJNLPNb@b@NP`@`@vB|Bf@j@f@j@l@r@p@l@l@f@\\VXRf@^`@XXNRL`@Td@T\\N`@Pf@Rl@R`@Lj@NZH^HVDVFPBXDp@F`@D`AJd@D|AL^BXBzANN@`@DjBNz@HpBP~BR~@HdBTj@LTDZHb@Ln@PTHb@Nh@Td@RJFLF^RNFDDRJRNVN\\Vb@ZfEzCBB\\T^VTLRLPHn@ZJFXJb@Nd@LB@\\HJDVFd@L~@X~@Zd@PRHj@T`@Pb@PZNf@VJDXNb@Tr@^XR^Tx@f@fAv@t@h@DD`@ZhA~@DD`A~@n@n@hAjAf@h@d@d@x@x@ZXXVd@\\TNZRXPd@Tf@Tj@Tf@NrA^j@Lz@TzA`@dAV`@Jf@Lv@NnAR`AJ|@DZAt@AjAIx@E~AS\\GLCh@Kp@O`@MjA[v@Wj@M`@M|@UPE\\Kd@Id@EZElAK~BEhAAhAER?hA?nAAT?f@?zCHT@X@rCPlBJjBJ`AFjFXdAFnEVfAFzAF`AFhDThBN~BRlCVfBN|@Hp@F^B`@BP@RBdBPD?`BPr@FtALlCT"
+              },
+              "start_location": {
+                "lat": 38.835089,
+                "lng": -77.311931
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 mi",
+                "value": 516
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 75
+              },
+              "end_location": {
+                "lat": 38.7868717,
+                "lng": -77.321966
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto the \u003cb\u003eVA-286 S\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003ePohick Rd\u003c/b\u003e ramp to \u003cb\u003eSpringfield\u003c/b\u003e",
+              "maneuver": "ramp-left",
+              "polyline": {
+                "points": "kkvkFn~}vMVBDk@@]Dk@@q@?]AK?ICQESI]EKCGISMOMUU[KOQWMSKQOYIQAEISGWEQGWEWCUAYC_@?c@?WH{C@_A@_@?GAOEQ"
+              },
+              "start_location": {
+                "lat": 38.7859792,
+                "lng": -77.3272777
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "4.4 mi",
+                "value": 7108
+              },
+              "duration": {
+                "text": "7 mins",
+                "value": 398
+              },
+              "end_location": {
+                "lat": 38.7490993,
+                "lng": -77.260685
+              },
+              "html_instructions": "Merge onto \u003cb\u003eVA-286 S\u003c/b\u003e",
+              "maneuver": "merge",
+              "polyline": {
+                "points": "}pvkFh}|vMF_D@e@HiD@{@Bo@B}@Du@Dy@Fg@XeC`@qD?AnAqK`@gDNqALs@Lq@La@Ni@HWXo@Vg@PYVe@TYLOZ_@\\_@HIZ[tAsADGtAsA`@e@z@gAPW@AT_@FI`@s@Xk@Zk@Rc@Vi@JSn@wAJU`@_AnAwC`BeEj@{AJYv@}BJWrAiElBiGPs@|@{CBIj@aBXs@Rc@BGn@mALSHQR]Zk@h@cAj@eAbAkBb@}@NWP[`AkBbAkBz@_BFKb@y@p@oANSPW\\a@h@q@b@g@`AmABChAwA?AjB{BhB{B~@kA\\c@d@k@JK`BkB`AiAb@g@DE|AcBHIjCoCpBoB|A{A`@]d@c@n@k@vAqAl@g@bB}AtBiB~@}@bA}@@AtAmAn@e@t@i@PMHEVOJIl@_@f@WjAq@t@]jBs@nAi@n@UzAi@ZOl@Uv@c@v@m@DEdAgAZ_@vAeB`@g@LMr@s@tCsDHGFI\\_@rAkAz@w@f@]^SJGj@c@t@g@VQz@k@p@e@HGFGXOx@i@jAy@n@g@f@c@@At@y@T[`@i@\\e@LSJQ`@w@jAuBFMXk@xAuCRg@d@kAPo@Ng@Li@Hg@JoABa@@YBq@AcACu@OqCCu@C_A?c@DuBFq@De@LcARkAFWFWJa@v@sCT{@Nc@Ru@H[h@sBHUHUHQVm@f@kAP_@@CFOHUFSPq@`@cBLi@Lm@DQFW`@eBJ_@Jc@"
+              },
+              "start_location": {
+                "lat": 38.7868717,
+                "lng": -77.321966
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.5 mi",
+                "value": 2436
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 100
+              },
+              "end_location": {
+                "lat": 38.7538507,
+                "lng": -77.2387219
+              },
+              "html_instructions": "Continue straight onto \u003cb\u003eVA-286 S\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eFairfax County Pkwy\u003c/b\u003e",
+              "maneuver": "straight",
+              "polyline": {
+                "points": "{dokFf~pvML_@L[JYHQJWXk@LYZi@LS\\k@h@s@bBmBj@k@n@u@l@u@FIJOJQv@oAZs@`@aATq@To@Pm@Rw@Py@BMPaAD[L_APyBD{@@Y@[BoA?kAAe@Ay@Ca@?GC[GcAIw@E[CYQqAGYEWOm@Ia@Ka@Ok@c@mAa@cAIUKSO[IQOW[i@QYIOY_@Y_@o@y@]_@gAqAwBeCu@_AEIiB}BCCsAiBaDmEcAuAkAaBMQ}@oAMQ}@oA}@oAMSkAaBuAoBu@aA[_@UWc@c@"
+              },
+              "start_location": {
+                "lat": 38.7490993,
+                "lng": -77.260685
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 273
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 24
+              },
+              "end_location": {
+                "lat": 38.75560189999999,
+                "lng": -77.2365248
+              },
+              "html_instructions": "Take the \u003cb\u003eVA-640\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSydenstricker Rd\u003c/b\u003e exit toward \u003cb\u003eGambrill Rd\u003c/b\u003e",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "qbpkF~tlvMEQEICGCEIIKOiAuA{CyDAAs@_AWa@"
+              },
+              "start_location": {
+                "lat": 38.7538507,
+                "lng": -77.2387219
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 mi",
+                "value": 338
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 43
+              },
+              "end_location": {
+                "lat": 38.757655,
+                "lng": -77.2393866
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eVA-640 N\u003c/b\u003e/\u003cwbr/\u003e\u003cb\u003eSydenstricker Rd\u003c/b\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "ompkFfglvMYh@MREFAB_@n@U^gAfB_AxA[h@GLQX_@f@GHoA|A"
+              },
+              "start_location": {
+                "lat": 38.75560189999999,
+                "lng": -77.2365248
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "364 ft",
+                "value": 111
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 26
+              },
+              "end_location": {
+                "lat": 38.758422,
+                "lng": -77.238563
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBriarcliff Dr\u003c/b\u003e",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "kzpkFdylvMgAoAoAuA"
+              },
+              "start_location": {
+                "lat": 38.757655,
+                "lng": -77.2393866
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "282 ft",
+                "value": 86
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 15
+              },
+              "end_location": {
+                "lat": 38.7579134,
+                "lng": -77.23782109999999
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eHeather Point Dr\u003c/b\u003e",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "c_qkF~slvMf@gA@A^m@Z["
+              },
+              "start_location": {
+                "lat": 38.758422,
+                "lng": -77.238563
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "135 ft",
+                "value": 41
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 12
+              },
+              "end_location": {
+                "lat": 38.7581836,
+                "lng": -77.2374944
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eDeavers Run Ct\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "}{pkFjolvMu@aA"
+              },
+              "start_location": {
+                "lat": 38.7579134,
+                "lng": -77.23782109999999
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "ov_lFlk{vMOAMCIMCK@{@?o@AMIWEKMQOOQGIBUTETHjA@v@Ct@Ah@AXy@KHq@@K@W?q@IaAe@eBMcAAaBtAr@h@^tArAhFvF~A`BjA~@|B|AxBhAhAd@nA`@~Bh@tBXfFd@`NjA~D\\dBTj@Lp@NrA^hCbAhAj@dAp@lGrEfBhAfBx@tF~AdDlAhCjA|BjAzDhCfDjC`E`EbDbD~@t@p@b@~@f@rAj@bFrAjFrAfCb@`AJ|@DpACdCO|B[v@OvEqA|Cw@bAU`AKlAK~BErCGbEArFLx^rB|CNrGd@rLdAdCP`Ff@nHn@NgDEeAYeA{@uAw@mAe@eAMi@Mo@Eo@CcALsGAWEQF_DJoEDkBHsBLaBjCkUp@yFZeB\\kAb@gAh@aAl@_ApAyAlEkE|AmBRYxAiCrAmClDeIpEyL~AaF~B}H`AeDdAuCtAmCbB_DvJ{QlBiD|BsCbMsOfJiK|F_G~ByBzEiE|IcIvAoAdBoA~@m@tAw@`CoAzD}AjC_AhAe@nBqAjAmArBeCn@u@r@s@tCsDPQpBkBbBuAj@[`BkArA}@|AeAdCcBvAkAv@{@v@eAj@y@l@iAfEeIx@sB`@wAVqANqBDkAEyBSgECcBDuBFq@RiBZcBRy@pBiHr@oCRk@zAkDZ}@jC}KXcAXu@|@oBh@}@fA_BnCyC|AkBvA{B|@uBj@aBd@eBTgAV}AL_APyBFuADkBAqBE{AU_Dc@aDk@iCs@yBk@yAu@yAqAsBoDkEmDeEoBgC}HqKeDuEiCsDaDqEqAaBy@{@K[]g@{GqIWa@Yh@SZ_CzDuBjDg@p@oA|AgAoAoAuAf@gA`@o@Z[u@aA"
+      },
+      "summary": "VA-123 S and VA-286 S/Fairfax County Pkwy",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
