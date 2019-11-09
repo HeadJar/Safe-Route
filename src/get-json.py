@@ -6,7 +6,7 @@ def getJSON(filePathAndName):
         return json.load(fp)
 
 
-myO = getJSON('./example.json')
+myO = getJSON('./ex.json')
 
 
-print(myO.get("routes"))
+print(myO.get["routes"])

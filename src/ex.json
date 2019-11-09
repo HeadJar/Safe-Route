@@ -1,0 +1,14 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJvX5Ce2BOtokRRHVV5lOmZtc",
+      "types": ["establishment", "point_of_interest", "university"]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJYWTlhfZStokRU5azNhgc2OY",
+      "types": ["premise"]
+    }
+  ]
+}

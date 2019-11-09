@@ -11,12 +11,12 @@ reverse_geocode_result = gmaps.reverse_geocode((40.714224, -73.961452))
 
 # Request directions via public transit
 now = datetime.now()
-directions_result = gmaps.directions("Sydney Town Hall",
-                                     "Parramatta, NSW",
-                                     mode="transit",
+directions_result = gmaps.directions("7218 Deavers Run Court",
+                                     "George Mason University",
+                                     mode="driving",
                                      departure_time=now)
 
 
 # clear
 # print(directions_result)
-print(type(directions_result))
+print((directions_result)[0]['routes'])
