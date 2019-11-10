@@ -12,10 +12,12 @@ gmaps = googlemaps.Client(key='AIzaSyB2UYBQZJIIb4bIHYnw858xSM6QWwj5CbI')
 
 
 def post_index(request):
-  
+    
     origin = request.POST['origin']
     destination = request.POST['destination']
     ad = getAddresses(origin, destination)
+    now = datetime.now()
+    
     print(getDirections(ad))
     
     return HttpResponseRedirect('/home/')
