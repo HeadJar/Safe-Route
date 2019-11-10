@@ -1,3 +1,8 @@
+import googlemaps
+from datetime import datetime
+gmaps = googlemaps.Client(key='AIzaSyB2UYBQZJIIb4bIHYnw858xSM6QWwj5CbI')
+
+
 def getRoute(dr):
     l = []
 
@@ -33,8 +38,17 @@ def getRoute(dr):
             tup = (i["end_location"]['lat'], i["end_location"]['lng'])
             l.append(tup)
 
-    return l
+    return dr
 
 
 def getAddresses(f, t):
-    return tuple(f, t)
+    return (f, t)
+
+
+def getDirections(ad):
+    now = datetime.now()
+    dr = gmaps.directions(ad[0],
+                      ad[1],
+                      mode="walking",
+                      departure_time=now)
+    return (getRoute(dr))
